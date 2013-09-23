@@ -1,7 +1,7 @@
 <?php 
-function sendmail($fax_num) {
+function sendmail($ioemail) {
 define("EMAIL_FROM", "from email address");
-define("EMAIL_TO", "to email address from ioemail");
+define("EMAIL_TO", "to email address from $ioemail");
 define("SMTP_SERVER", "smtp.office365.com");
 define("SMTP_USER", "Full username");
 define("SMTP_PASSWORD", "Password");
